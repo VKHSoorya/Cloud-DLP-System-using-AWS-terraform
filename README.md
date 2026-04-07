@@ -109,12 +109,14 @@ terraform.tfvars
 
 ### 3. Add your configurationin the terraform.tfvars folder:
 
+```text
 aws_region            = "ap-south-1"
 main_bucket_name      = "your-main-bucket"
 secure_bucket_name    = "your-secure-bucket"
 lambda_function_name  = "your-lambda-name"
 sns_topic_name        = "your-topic"
 subscription_email    = "your-email@gmail.com"
+```
 
 ### 4. Initialize Terraform
 

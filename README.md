@@ -43,8 +43,8 @@ This project implements a **Data Loss Prevention (DLP) system** using AWS servic
 ├── s3.tf                 # S3 bucket resources
 ├── lambda.tf             # Lambda function setup
 ├── iam.tf                # IAM roles & policies
-├── kms.tf                 # KMS encryption setup
-├── sns.tf                 # SNS notifications
+├── kms.tf                # KMS encryption setup
+├── sns.tf                # SNS notifications
 ├── lambda_function.py    # Lambda source code
 └── lambda_function.zip   # Deployment package
 ```

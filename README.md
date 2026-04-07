@@ -36,16 +36,16 @@ This project implements a **Data Loss Prevention (DLP) system** using AWS servic
 ## Project Structure
 
 .
-├── provider.tf
-├── variables.tf
-├── terraform.tfvars        (ignored in Git)
-├── s3.tf
-├── lambda.tf
-├── iam.tf
-├── kms.tf
-├── sns.tf
-├── lambda_function.py
-└── lambda_function.zip
+├── provider.tf # Provider configuration
+├── variables.tf # Input variables
+├── terraform.tfvars # Variable values (ignored in Git)
+├── s3.tf # S3 bucket resources
+├── lambda.tf # Lambda function setup
+├── iam.tf # IAM roles & policies
+├── kms.tf # KMS encryption setup
+├── sns.tf # SNS notifications
+├── lambda_function.py # Lambda source code
+└── lambda_function.zip # Deployment package
 
 
 File Description

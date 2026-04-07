@@ -145,25 +145,25 @@ Check your email and click **Confirm Subscription**
 
 ## Security Features
 
-1 KMS-based encryption
-2 IAM least privilege access
-3 Event-driven processing
-4 Automated response to sensitive data
+1. KMS-based encryption
+2. IAM least privilege access
+3. Event-driven processing
+4. Automated response to sensitive data
 
 
 ##  Notes
 
-1 SNS email requires manual confirmation
-2 terraform.tfvars should not be uploaded
-3 Bucket names must be globally unique
+1. SNS email requires manual confirmation
+2. terraform.tfvars should not be uploaded
+3. Bucket names must be globally unique
 
 
 ## Future Improvements
 
-1 Add support for PDFs and images
-2 Add dashboard for monitoring
-3 Add severity-based detection
-4 Integrate with SIEM tools
+1. Add support for PDFs and images
+2. Add dashboard for monitoring
+3. Add severity-based detection
+4. Integrate with SIEM tools
 
 
 Cloud security project built using AWS and Terraform.

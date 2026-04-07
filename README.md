@@ -47,7 +47,7 @@ This project implements a **Data Loss Prevention (DLP) system** using AWS servic
 ├── sns.tf                 # SNS notifications
 ├── lambda_function.py    # Lambda source code
 └── lambda_function.zip   # Deployment package
-
+```
 
 File Description
 
